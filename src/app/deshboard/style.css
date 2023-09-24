@@ -1,0 +1,12 @@
+.imgOverlay {
+    display: none;
+}
+
+.imgOverlay label i {
+    font-size: 50px !important;
+}
+
+.photoVissability {
+    display: none;
+    visibility: none;
+}
