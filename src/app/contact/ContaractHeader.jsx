@@ -7,9 +7,9 @@ const ContaractHeader = () => {
     >
 
 
-        <p className='text-2xl'>Get In Touch</p>
-        <p className='font-bold text-6xl'>Contact Us</p>
-        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        <p className='text-xl lg:text-2xl'>Get In Touch</p>
+        <p className='font-bold text-3xl md:text-4xl lg:text-6xl'>Contact Us</p>
+        <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
     </div>
   )
 }
