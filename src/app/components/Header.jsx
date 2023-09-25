@@ -18,12 +18,12 @@ const [isOpen,setIsOpen] = useState(false)
     </div>
 
     <div className={`list ${isOpen ? "list" : "listVisible"} ` }>
-      <Link className={'headerLink'}  href={"/"}>Home</Link>
-      <Link  className={'headerLink'} href={"/service"}>Service</Link>
+      <Link className={'headerLink'} onClick={()=> setIsOpen(!isOpen)}  href={"/"}>Home</Link>
+      <Link  className={'headerLink'} onClick={()=> setIsOpen(!isOpen)} href={"/service"}>Service</Link>
       {/* <Link  className={'headerLink'} href={"/deshboard"}>Deshboard</Link> */}
-      <Link  className={'headerLink'} href={"/contact"}>Contact</Link>
-      <Link  className={'headerLink'} href={"/signup"}>SignUp</Link>
-      <Link  className={'headerLink'} href={"/signin"}>Login</Link>
+      <Link  className={'headerLink'} onClick={()=> setIsOpen(!isOpen)} href={"/contact"}>Contact</Link>
+      <Link  className={'headerLink'} onClick={()=> setIsOpen(!isOpen)} href={"/signup"}>SignUp</Link>
+      <Link  className={'headerLink'} onClick={()=> setIsOpen(!isOpen)} href={"/signin"}>Login</Link>
       {/* <Link  className={'headerLink'} href={"/logout"}>Logout</Link> */}
     </div>
 
